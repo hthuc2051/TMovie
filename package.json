@@ -1,0 +1,22 @@
+{
+  "name": "tmovie",
+  "version": "1.0.0",
+  "description": "Watching movie online",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.15",
+    "mongoose-id-validator": "^0.5.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Thuc Nguyen Huy",
+  "license": "ISC"
+}
